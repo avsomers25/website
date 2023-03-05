@@ -9,7 +9,7 @@ function App() {
         <p>
           <br></br>
           <br></br>
-          I'm a student at Rutgers studying CS
+          I am a student at Rutgers studying CS
         </p>
         <a
           className="App-link"
