@@ -1,10 +1,20 @@
 import R from './R.png';
 import './App.css';
 
+function Menu(){
+  return (
+    <div>
+      crying
+    </div>
+  )
+}
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Menu></Menu>
         <img src={R} className="App-logo" alt="logo" />
         <p>
           <br></br>
