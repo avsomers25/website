@@ -32,3 +32,38 @@
   color: #FFA5AB;
 }
 
+.link{
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.color1{
+  height: 600px;
+  background-color: #F9DBBD;
+}
+
+
+.color2{
+  height: 600px;
+  background-color: #7D83FF;
+}
+
+
+.color3{
+  height: 600px;
+  background-color: #FFA5AB;
+}
+
+
+.color4{
+  height: 600px;
+  background-color: #1AFFD5;
+}
+
+.color5{
+  height: 600px;
+  background-color: #B8336A;
+}
+
