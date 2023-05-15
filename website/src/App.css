@@ -8,7 +8,7 @@
 }
 
 
-.App-header {
+.App-body{
   background-color: #F9DBBD;
   min-height: 100vh;
   display: flex;
@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+h3{
+  padding-top: 50px;
+}
+
 .color1{
   height: 600px;
   background-color: #F9DBBD;
@@ -46,7 +50,7 @@
 
 
 .color2{
-  height: 600px;
+  height: 200px;
   background-color: #7D83FF;
 }
 
@@ -63,7 +67,9 @@
 }
 
 .color5{
-  height: 600px;
+  height: 50px;
   background-color: #B8336A;
+  position: sticky; 
+  top: 0
 }
 

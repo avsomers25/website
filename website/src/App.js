@@ -19,7 +19,7 @@ function Menu(){
 
   return (
     <div>
-      <div className = "color1">
+      <div  className = "color5">
         <ul ref = {home}>
             <li onClick={() => scrollToSection(home)} className="link">
               Home
@@ -38,7 +38,7 @@ function Menu(){
             </li>
           </ul>
           
-      </div>
+      </div >
       <div ref={about} className="color2">
         <h3>About</h3>
       </div>
@@ -48,7 +48,7 @@ function Menu(){
       <div ref={resume} className="color4">
         <h3>Resume</h3>
       </div>
-      <div ref={contact} className="color5">
+      <div ref={contact} className="color2">
         <h3>Contact</h3>
       </div>
     </div>
@@ -56,26 +56,16 @@ function Menu(){
 }
 
 
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-body">
       <Menu></Menu>
-        <img src={R} className="App-logo" alt="logo" />
-        <p>
-          <br></br>
-          <br></br>
-          I am a student at Rutgers studying CS
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/avsomers25"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a>
-      </header>
+
+      </div>
+
     </div>
   );
 }
