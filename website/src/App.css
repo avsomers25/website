@@ -3,8 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 100px;
 }
 
 
@@ -16,7 +15,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link:link {
@@ -43,6 +41,10 @@ h3{
   padding-top: 50px;
 }
 
+p{
+  margin-top: 0;
+}
+
 .color1{
   height: 600px;
   background-color: #F9DBBD;
@@ -50,13 +52,11 @@ h3{
 
 
 .color2{
-  height: 200px;
   background-color: #7D83FF;
 }
 
 
 .color3{
-  height: 600px;
   background-color: #FFA5AB;
 }
 

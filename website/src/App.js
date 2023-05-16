@@ -1,4 +1,5 @@
-import R from './R.png';
+import G from './github-mark.svg';
+import E from './email.svg';
 import './App.css';
 
 import {useRef} from "react";
@@ -41,15 +42,19 @@ function Menu(){
       </div >
       <div ref={about} className="color2">
         <h3>About</h3>
+        <p>I'm a computer science major at Rutgers, planning to graduate in 2026</p>
       </div>
       <div ref={projects} className="color3">
         <h3>Projects</h3>
+        <a href="https://github.com/avsomers25"><img src={G} className="App-logo" alt="website" /></a>
       </div>
       <div ref={resume} className="color4">
         <h3>Resume</h3>
       </div>
       <div ref={contact} className="color2">
         <h3>Contact</h3>
+        <img src={E} className="App-logo" alt="website" />
+        <p>avsomers25@gmail.com</p>
       </div>
     </div>
   )
