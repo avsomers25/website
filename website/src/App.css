@@ -14,7 +14,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
 }
 
 .App-link:link {
@@ -37,7 +36,7 @@
   cursor: pointer;
 }
 
-h3{
+h1{
   padding-top: 50px;
 }
 
@@ -66,10 +65,19 @@ p{
   background-color: #1AFFD5;
 }
 
-.color5{
+.navBar{
   height: 50px;
   background-color: #B8336A;
   position: sticky; 
-  top: 0
+  top: 0;
 }
+
+.navBar:ul{
+  margin-top: 0;
+}
+
+.navBar:li{
+  padding-top: 0;
+}
+
 
