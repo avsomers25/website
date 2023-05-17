@@ -49,6 +49,7 @@ function Menu(){
       <div ref={projects} className="color3">
         <h1>Projects</h1>
         <a href="https://github.com/avsomers25"><img src={G} className="App-logo" alt="website" /></a>
+        <p>my github</p>
       </div>
       <div ref={resume} className="color4">
         <h1>Resume</h1>

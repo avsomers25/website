@@ -38,10 +38,11 @@
 
 h1{
   padding-top: 50px;
+  margin-top: 0;
 }
 
 p{
-  margin-top: 0;
+  margin: 0;
 }
 
 .color1{
@@ -72,7 +73,7 @@ p{
   top: 0;
 }
 
-.navBar:ul{
+ul{
   margin-top: 0;
 }
 
