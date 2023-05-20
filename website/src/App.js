@@ -1,6 +1,7 @@
-import G from './github-mark.svg';
+import G from './github-mark-white.svg';
 import E from './email.svg';
 import './App.css'
+
 
 import ResumeItem from './ResumeItem';
 
@@ -39,7 +40,7 @@ function Menu(){
           </ul>
           
       </div >
-      <div ref={about} className="color2">
+      <div ref={about} className="color3">
         <h1>About</h1>
         <p>I'm a computer science major at Rutgers, planning to graduate in 2026</p>
       </div>
@@ -60,7 +61,7 @@ function Menu(){
         desc: 'Given free reign to convert a Jupyter Notebook to a Python script that can be run from the command line. Coded unit tests for the Python script' 
         }}/>
       </div>
-      <div ref={contact} className="color2">
+      <div ref={contact} className="color3">
         <h1>Contact</h1>
         <img src={E} className="App-logo" alt="website" />
         <p>avsomers25@gmail.com</p>
