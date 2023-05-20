@@ -24,9 +24,6 @@ function Menu(){
     <div>
       <div className = "navBar">
         <ul ref = {home}>
-            <li onClick={() => scrollToSection(home)} className="link">
-              Home
-            </li>
             <li onClick={() => scrollToSection(about)} className="link">
               About
             </li>
