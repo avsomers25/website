@@ -40,9 +40,17 @@ function Menu(){
           </ul>
           
       </div >
-      <div ref={about} className="color3">
+      <div ref={about} className="color3" style={{ display: "grid", gridTemplateColumns: "1fr 2fr 1fr", gridGap: 20}}>
+        <div></div>
+        <div>
         <h1>About</h1>
-        <p>I'm a computer science major at Rutgers, planning to graduate in 2026</p>
+        <p>I am a sophomore Computer Science major in the Honors Program in the College of Arts and Sciences at Rutgers University, New Brunswick.  I am familar with Python, C, Unity and React. I am motivated by problem solving, collaborating and innovating. In addition to my studies, I enjoy playing ultimate frisbee and am a member of the club team on campus. 
+        </p>
+        </div>
+        <div>
+
+        </div>
+        
       </div>
       <div ref={projects} className="color3">
         <h1>Projects</h1>
