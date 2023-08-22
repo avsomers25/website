@@ -2,8 +2,6 @@ import G from './github-mark-white.svg';
 import E from './email.svg';
 import './App.css'
 
-import ProjectCard from "./ProjectCard"
-
 
 import ResumeItem from './ResumeItem';
 
@@ -57,7 +55,6 @@ function Menu(){
       <div ref={projects} className="color3">
         <h1>Projects</h1>
         <a href="https://github.com/avsomers25"><img src={G} className="App-logo" alt="website" /></a>
-        <ProjectCard></ProjectCard>
         <p>my github</p>
       </div>
       <div ref={resume} className="color4">
