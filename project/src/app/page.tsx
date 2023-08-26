@@ -1,28 +1,36 @@
 import Image from 'next/image'
-import arch from  'public/img/arch.png'
-import torch from 'public/img/torch.png'
+import Arch from '../app/components/arch'
+import Torch from '../app/components/torch'
 
 export default function Home() {
   return (
-    <div className = "bg-gradient-to-b from-cyan-500 to-blue-500" >
+    <div className="bg-black" >
       <div className='p-4'>
-      <button className="bg-violet-500 hover:bg-violet-600  hover:ring hover:ring-violet-300 ...">
-      Projects
-      </button>
-    </div>
-      <div className='grid grid-cols-5 place-items-center'>
-        <div className=''>
-          1
-          <Image src={torch} alt=""/>
-        </div>
-        <div className="col-span-3">
-          2
-          <Image src={arch} alt=""/>
-        </div>
-        <div className=''>
-          3
-          <Image src={torch} alt=""/>
+      </div>
+      <div className='md:flex'>
+        <div className='grid grid-cols-5 place-items-center md:w-1/2 '>
+          <div className=''>
+            <Torch></Torch>
           </div>
+          <div className="col-span-3 object-none ">
+            <Arch></Arch>
+          </div>
+          <div className=''>
+          <Torch></Torch>
+          </div>
+        </div>
+        <div className='grid grid-cols-5 place-items-center  md:w-1/2'>
+          <div className=''>
+          <Torch></Torch>
+          </div>
+          <div className="col-span-3 object-none">
+            <Arch></Arch>
+          </div>
+          <div className='shadow-[0_0px_100px_60px_rgba(255,0,255,1)]'>
+          <Torch></Torch>
+          </div>
+        </div>
+
       </div>
     </div>
   )
