@@ -13,7 +13,7 @@ export default function Home() {
             <Torch></Torch>
           </div>
           <div className="col-span-3 object-none ">
-            <Arch></Arch>
+            <Arch path = "/ChibiAhri"></Arch>
           </div>
           <div className=''>
           <Torch></Torch>
@@ -24,7 +24,7 @@ export default function Home() {
           <Torch></Torch>
           </div>
           <div className="col-span-3 object-none">
-            <Arch></Arch>
+            <Arch path = "/ChibiAhri"></Arch>
           </div>
           <div className=''>
           <Torch></Torch>
