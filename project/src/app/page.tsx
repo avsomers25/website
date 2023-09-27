@@ -24,7 +24,7 @@ export default function Home() {
           <Torch></Torch>
           </div>
           <div className="col-span-3 object-none">
-            <Arch path = "/ChibiAhri"></Arch>
+            <Arch path = "/Resume"></Arch>
           </div>
           <div className=''>
           <Torch></Torch>
